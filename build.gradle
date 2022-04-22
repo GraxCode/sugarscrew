@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+}
+
+group 'me.nov'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        url = uri("https://oss.sonatype.org/content/repositories/snapshots/")
+    }
+    google()
+}
+
+dependencies {
+    implementation("com.fifesoft:rsyntaxtextarea:3.2.0")
+    implementation 'io.github.skylot:jadx-smali-input:1.3.5'
+    implementation 'io.github.skylot:jadx-core:1.3.5'
+
+    implementation 'org.smali:util:2.5.2'
+    implementation 'org.smali:dexlib2:2.5.2'
+    implementation 'org.smali:baksmali:2.5.2' // for decompiling
+
+    implementation("com.github.weisj:darklaf-extensions-rsyntaxarea:0.3.4")
+    implementation("com.github.weisj:swing-extensions-components:0.2.0-SNAPSHOT")
+    implementation("com.github.weisj:darklaf-core:3.0.0")
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_exit">Do you really want to exit?</string>
+
+    <string name="menu_file">File</string>
+    <string name="menu_file_new">New</string>
+    <string name="menu_file_open">Open</string>
+    <string name="menu_file_save">Save</string>
+    <string name="menu_file_save_as">Save as</string>
+    <string name="menu_file_exit">Exit</string>
+
+    <string name="menu_edit">Edit</string>
+    <string name="menu_edit_undo">Undo</string>
+    <string name="menu_edit_redo">Redo</string>
+    <string name="menu_edit_settings">Settings</string>
+
+    <string name="filechooser_supported_types">"Supported file types: %s"</string>
+
+    <string name="tabframe_tree_title_short">Classes</string>
+    <string name="tabframe_tree_title">Class tree structure</string>
+    <string name="tabframe_members_title">Fields and methods</string>
+    <string name="tabframe_members_title_short">Members</string>
+    <string name="tab_welcome_title">Welcome</string>
+    <string name="tab_welcome_text">Welcome to Sugarscrew version %s.</string>
+
+    <string name="editor_tab_close">Close this tab</string>
+    <string name="editor_tab_close_all">Close all tabs</string>
+    <string name="editor_tab_close_other">Close all tabs except this</string>
+    <string name="editor_tab_close_right">Close all tabs to the right</string>
+    <string name="editor_tab_close_left">Close all tabs to the left</string>
+    <string name="editor_tab_select_in_tree">Select in tree</string>
+
+    <string name="import_failed">"Failed to load file: %s"</string>
+
+    <string name="decompiler_error">Decompiler error: %s</string>
+    <string name="decompiler_error_no_output">No output received from decompiler.</string>
+    <string name="decompiler_error_io">Decompiler I/O error: %s</string>
+</resources>
